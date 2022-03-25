@@ -1,31 +1,24 @@
-import React from 'react'
+import React from "react";
 
 function Stats() {
   return (
-    <>
-    <div class="stats stats-vertical  ">
-  
-  <div class="stat ">
-    <div class="stat-title">Downloads</div>
-    <div class="stat-value">31K</div>
-    <div class="stat-desc">Jan 1st - Feb 1st</div>
-  </div>
-  
-  <div class="stat">
-    <div class="stat-title">New Users</div>
-    <div class="stat-value">4,200</div>
-    <div class="stat-desc">↗︎ 400 (22%)</div>
-  </div>
-  
-  <div class="stat">
-    <div class="stat-title">New Registers</div>
-    <div class="stat-value">1,200</div>
-    <div class="stat-desc">↘︎ 90 (14%)</div>
-  </div>
-  
-</div>
-</>
-  )
+    <div className="flex w-full justify-center">
+      <div className="stats stats-vertical md:stats-horizontal ">
+        <div className="stat place-items-center gap-0 bg-transparent px-10 ">
+          <div className="stat-value tabular-nums hover:opacity-50">200+</div>
+          <div className="stat-desc">commands</div>
+        </div>
+        <div className="stat place-items-center gap-0 bg-transparent px-10 ">
+          <div className="stat-value tabular-nums hover:opacity-50">500+</div>
+          <div className="stat-desc">servers</div>
+        </div>
+        <div className="stat place-items-center gap-0 bg-transparent px-10 ">
+          <div className="stat-value tabular-nums hover:opacity-50">10000+</div>
+          <div className="stat-desc">users</div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Stats
+export default Stats;

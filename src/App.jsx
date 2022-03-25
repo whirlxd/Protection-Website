@@ -9,8 +9,19 @@ function App() {
     <>
       <Component.Header />
       <Main />
-      <Features />
-      <br></br>
+      <section className="min-h-screen" id="features">
+        <Features />
+        <br></br>
+        <br></br>
+        <br></br>
+        <Component.Stats />
+        <br></br>
+        <br></br>
+        <br></br>
+      </section>
+      <section id="know-more">
+        <Component.Invite />
+      </section>
       <Footer />
     </>
   );

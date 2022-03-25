@@ -2,7 +2,7 @@ import React from "react";
 
 function hero() {
   return (
-    <div class="hero min-h-screen bg-base-200">
+    <div class="hero custom-h-screen bg-base-200">
       <div class="hero-content text-center">
         <div class="max-w-md">
           <img
@@ -12,7 +12,7 @@ function hero() {
           <h1 class="text-5xl font-bold">Protection</h1>
           <p class="py-6">Work.In.Progress</p>
           <button class="btn btn-primary mr-4">Invite</button>
-          <button class="btn btn-primary">Support</button>
+          <button class="btn btn-primary">Vote</button>
         </div>
       </div>
     </div>

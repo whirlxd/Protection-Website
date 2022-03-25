@@ -3,15 +3,15 @@ import React from "react";
 function Features() {
   return (
     <>
-      <div class="hero  bg-base-200 ">
+      <div class="hero  bg-base-100 ">
         <div class="hero-content text-center">
           <div class="max-w-md">
-            <h1 class="text-5xl font-bold mb-5">Features</h1>
+            <h1 class="text-5xl font-bold mb-20 mt-10">Features</h1>
           </div>
         </div>
       </div>
       <div class="flex flex-col w-full lg:flex-row">
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-96 bg-base-100 shadow-xl hover:bg-primary">
           <figure class="px-10 pt-10">
             <img
               src="https://api.lorem.space/image/shoes?w=400&h=225"
@@ -26,7 +26,7 @@ function Features() {
           </div>
         </div>
         <div class="divider lg:divider-horizontal mx-auto"></div>
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-96 bg-base-100 shadow-xl hover:bg-primary">
           <figure class="px-10 pt-10">
             <img
               src="https://api.lorem.space/image/shoes?w=400&h=225"
@@ -41,7 +41,7 @@ function Features() {
           </div>
         </div>
         <div class="divider lg:divider-horizontal mx-auto"></div>
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-96 bg-base-100 shadow-xl hover:bg-primary">
           <figure class="px-10 pt-10">
             <img
               src="https://api.lorem.space/image/shoes?w=400&h=225"
@@ -56,7 +56,7 @@ function Features() {
           </div>
         </div>
         <div class="divider lg:divider-horizontal mx-auto"></div>
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-96 bg-base-100 shadow-xl hover:bg-primary">
           <figure class="px-10 pt-10">
             <img
               src="https://api.lorem.space/image/shoes?w=400&h=225"
