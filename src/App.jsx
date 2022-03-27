@@ -3,12 +3,16 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Header, Footer, Main, Features, Stats } from "./Components";
 import * as Component from "./Components";
+import { Fade } from "react-awesome-reveal";
+import customLinks from "../customize";
 
 function App() {
   return (
     <>
       <Component.Header />
+
       <Main />
+
       <section className="min-h-screen" id="features">
         <Features />
         <br></br>
@@ -19,6 +23,7 @@ function App() {
         <br></br>
         <br></br>
       </section>
+
       <section id="know-more">
         <Component.Invite />
       </section>

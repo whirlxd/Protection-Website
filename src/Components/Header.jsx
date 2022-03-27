@@ -66,7 +66,9 @@ function Header() {
               </li>
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl">Protection</a>
+          <a href="/" class="btn btn-ghost normal-case text-xl">
+            Protection
+          </a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
@@ -87,7 +89,7 @@ function Header() {
         </div>
         <div class="navbar-end">
           <a
-            href="https://protection.com/invite"
+            href="https://top.gg/bot/754519886436237463/invite"
             target="_blank"
             class="btn hover:bg-secondary"
           >

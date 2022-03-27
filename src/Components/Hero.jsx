@@ -10,9 +10,22 @@ function hero() {
             class=" h-52 w-52 mx-auto"
           />
           <h1 class="text-5xl font-bold">Protection</h1>
-          <p class="py-6">Work.In.Progress</p>
-          <button class="btn btn-primary mr-4">Invite</button>
-          <button class="btn btn-primary">Vote</button>
+          <p class="py-6">
+            Protection is a bot that will protect your server by stopping
+            suspicious activity taken by your trusted ones!
+          </p>
+          <a
+            href="https://top.gg/bot/754519886436237463/invite"
+            class="btn btn-primary mr-4"
+          >
+            Invite
+          </a>
+          <a
+            href="https://top.gg/bot/754519886436237463/vote"
+            class="btn btn-primary"
+          >
+            Vote
+          </a>
         </div>
       </div>
     </div>

@@ -9,7 +9,9 @@ function Invite() {
         <br></br>
         <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl">
           <div class="card-body">
-            <button class="btn">Reviews & Ratings</button>
+            <a href="https://top.gg/bot/754519886436237463" class="btn">
+              Reviews & Ratings
+            </a>
           </div>
         </div>
         <div class="divider lg:divider-horizontal mx-auto"></div>
