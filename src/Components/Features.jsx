@@ -11,7 +11,7 @@ function Features() {
         </div>
       </div>
       <div class="flex flex-col w-full  justify-center lg:flex-row">
-        <div class="card w-96 bg-base-100 shadow-xl transition ease-in-out delay-70 hover:bg-primary">
+        <div class="card w-96 bg-base-100 shadow-xl transition ease-in-out delay-70 hover:bg-primary  hover:font-bold">
           <figure class="px-10 pt-10">
             <img
               src="https://api.lorem.space/image/shoes?w=400&h=225"
@@ -26,7 +26,7 @@ function Features() {
           </div>
         </div>
         <div class="divider lg:divider-horizontal mx-auto"></div>
-        <div class="card w-96 bg-base-100 shadow-xl transition ease-in-out delay-70 hover:bg-primary">
+        <div class="card w-96 bg-base-100 shadow-xl transition ease-in-out delay-70 hover:bg-primary hover:font-bold">
           <figure class="px-10 pt-10">
             <img
               src="https://api.lorem.space/image/shoes?w=400&h=225"
@@ -41,7 +41,7 @@ function Features() {
           </div>
         </div>
         <div class="divider lg:divider-horizontal mx-auto"></div>
-        <div class="card w-96 bg-base-100 shadow-xl hover:bg-primary">
+        <div class="card w-96 bg-base-100 shadow-xl hover:bg-primary hover:font-bold">
           <figure class="px-10 pt-10">
             <img
               src="https://api.lorem.space/image/shoes?w=400&h=225"
@@ -56,7 +56,7 @@ function Features() {
           </div>
         </div>
         <div class="divider lg:divider-horizontal mx-auto"></div>
-        <div class="card w-96 bg-base-100 shadow-xl hover:bg-primary">
+        <div class="card w-96 bg-base-100 shadow-xl hover:bg-primary hover:font-bold">
           <figure class="px-10 pt-10">
             <img
               src="https://api.lorem.space/image/shoes?w=400&h=225"

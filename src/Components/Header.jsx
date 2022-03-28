@@ -16,7 +16,7 @@ function Header() {
       <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
-            <label class="btn btn-ghost lg:hidden">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -37,36 +37,17 @@ function Header() {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>nOU</a>
-              </li>
-              <li tabindex="0">
-                <a class="justify-between">
-                  Parent
-                  <svg
-                    class="fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                  </svg>
-                </a>
-                <ul class="p-2">
-                  <li>
-                    <a href="/no">Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <a href="#features">Features</a>
               </li>
               <li>
-                <a href="#features">pog</a>
+                <a href="#faq">FAQ</a>
+              </li>
+              <li>
+                <a href="#team">Team</a>
               </li>
             </ul>
           </div>
-          <a href="/" class="btn btn-ghost normal-case text-xl">
+          <a class="btn btn-ghost normal-case text-xl hover:bg-base-100">
             Protection
           </a>
         </div>
@@ -75,23 +56,19 @@ function Header() {
             <li>
               <a href="#features">Features</a>
             </li>
-            <li tabindex="0">
-              <a href="https://discord.gg/JsbzZ87eHP" target="_blank">
-                Support
-              </a>
-              <ul class="p-2"></ul>
+            <li>
+              <a href="#faq">FAQ</a>
             </li>
-            <li tabindex="0">
-              <a href="#know-more">More</a>
-              <ul class="p-2"></ul>
+            <li>
+              <a href="#team">Team</a>
             </li>
           </ul>
         </div>
         <div class="navbar-end">
           <a
-            href="https://top.gg/bot/754519886436237463/invite"
+            href="https://top.gg/bot/750253000638857216/invite"
             target="_blank"
-            class="btn hover:bg-secondary"
+            class="btn"
           >
             Invite Now
           </a>

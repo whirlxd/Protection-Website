@@ -23,10 +23,16 @@ function App() {
         <br></br>
         <br></br>
       </section>
-
+      <section className="" id="faq">
+        <Component.Faq />
+      </section>
+      <section id="team">
+        <Component.Team />
+      </section>
       <section id="know-more">
         <Component.Invite />
       </section>
+
       <Footer />
     </>
   );

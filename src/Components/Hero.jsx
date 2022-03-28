@@ -15,13 +15,15 @@ function hero() {
             suspicious activity taken by your trusted ones!
           </p>
           <a
-            href="https://top.gg/bot/754519886436237463/invite"
+            href="https://top.gg/bot/750253000638857216/invite"
+            target="_blank"
             class="btn btn-primary mr-4"
           >
             Invite
           </a>
           <a
-            href="https://top.gg/bot/754519886436237463/vote"
+            href="https://top.gg/bot/750253000638857216/vote"
+            target="_blank"
             class="btn btn-primary"
           >
             Vote
