@@ -13,13 +13,13 @@ function Header() {
         opacity: 50,
       }}
     >
-      <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <label tabindex="0" class="btn btn-ghost lg:hidden">
+      <div className="navbar bg-base-100">
+        <div className="navbar-start">
+          <div className="dropdown">
+            <label tabindex="0" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -34,7 +34,7 @@ function Header() {
             </label>
             <ul
               tabindex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
                 <a href="#features">Features</a>
@@ -47,12 +47,12 @@ function Header() {
               </li>
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl hover:bg-base-100">
+          <a className="btn btn-ghost normal-case text-xl hover:bg-base-100">
             Protection
           </a>
         </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal p-0">
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu menu-horizontal p-0">
             <li>
               <a href="#features">Features</a>
             </li>
@@ -64,11 +64,11 @@ function Header() {
             </li>
           </ul>
         </div>
-        <div class="navbar-end">
+        <div className="navbar-end">
           <a
             href="https://top.gg/bot/750253000638857216/invite"
             target="_blank"
-            class="btn"
+            className="btn"
           >
             Invite Now
           </a>

@@ -1,78 +1,73 @@
 import React from "react";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 function Features() {
   return (
     <>
-      <div class="hero  bg-base-100 ">
-        <div class="hero-content text-center">
-          <div class="max-w-md">
-            <h1 class="text-5xl font-bold mb-20 mt-10">Features</h1>
+      <div className="hero  bg-base-100 ">
+        <div className="hero-content text-center">
+          <div className="max-w-md">
+            <AnimationOnScroll animateIn="animate__fadeInUp">
+              <h1 className="text-5xl font-bold mb-10 mt-10 ">Features</h1>
+            </AnimationOnScroll>
           </div>
         </div>
       </div>
-      <div class="flex flex-col w-full  justify-center lg:flex-row">
-        <div class="card w-96 bg-base-100 shadow-xl transition ease-in-out delay-70 hover:bg-primary  hover:font-bold">
-          <figure class="px-10 pt-10">
-            <img
-              src="https://api.lorem.space/image/shoes?w=400&h=225"
-              alt="Shoes"
-              class="rounded-xl"
-            />
-          </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title">Anti-Vanity</h2>
-            <p>W.I.P</p>
-            <div class="card-actions"></div>
-          </div>
-        </div>
-        <div class="divider lg:divider-horizontal mx-auto"></div>
-        <div class="card w-96 bg-base-100 shadow-xl transition ease-in-out delay-70 hover:bg-primary hover:font-bold">
-          <figure class="px-10 pt-10">
-            <img
-              src="https://api.lorem.space/image/shoes?w=400&h=225"
-              alt="Shoes"
-              class="rounded-xl"
-            />
-          </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title">Whitelisting & BlackListing</h2>
-            <p>W.I.P</p>
-            <div class="card-actions"></div>
-          </div>
-        </div>
-        <div class="divider lg:divider-horizontal mx-auto"></div>
-        <div class="card w-96 bg-base-100 shadow-xl hover:bg-primary hover:font-bold">
-          <figure class="px-10 pt-10">
-            <img
-              src="https://api.lorem.space/image/shoes?w=400&h=225"
-              alt="Shoes"
-              class="rounded-xl"
-            />
-          </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title">Anti-Alt</h2>
-            <p>W.I.P</p>
-            <div class="card-actions"></div>
-          </div>
-        </div>
-        <div class="divider lg:divider-horizontal mx-auto"></div>
-        <div class="card w-96 bg-base-100 shadow-xl hover:bg-primary hover:font-bold">
-          <figure class="px-10 pt-10">
-            <img
-              src="https://api.lorem.space/image/shoes?w=400&h=225"
-              alt="Shoes"
-              class="rounded-xl"
-            />
-          </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title">Anti-Noobs</h2>
-            <p>W.I.P</p>
-            <div class="card-actions"></div>
-          </div>
-        </div>
+
+      <div className="flex flex-col w-full  justify-center lg:flex-row">
+        <FeatureCard
+          title="feature"
+          desc="Feature"
+          previewImage="https://source.unsplash.com/random/200x200"
+        />
+        <div className="divider lg:divider-horizontal mx-auto"></div>
+
+        <FeatureCard
+          title="feature"
+          desc="Feature"
+          previewImage="https://source.unsplash.com/random/200x200"
+        />
+        <div className="divider lg:divider-horizontal mx-auto"></div>
+
+        <FeatureCard
+          title="feature"
+          desc="Feature"
+          previewImage="https://source.unsplash.com/random/200x200"
+        />
+      </div>
+      <br></br>
+      <div className="flex flex-col w-full  justify-center lg:flex-row">
+        <FeatureCard
+          title="feature"
+          desc="Feature"
+          previewImage="https://source.unsplash.com/random/200x200"
+        />
+        <div className="divider lg:divider-horizontal mx-auto"></div>
+
+        <FeatureCard
+          title="feature"
+          desc="Feature"
+          previewImage="https://source.unsplash.com/random/200x200"
+        />
       </div>
     </>
   );
 }
 
+function FeatureCard(props) {
+  return (
+    <AnimationOnScroll animateIn="animate__fadeInUp">
+      <div className="card m-1 w-96 bg-base-100 transition ease-in-out delay-100 shadow-xl hover:bg-primary hover:font-bold">
+        <figure className="px-10 pt-10">
+          <img src={props.previewImage} alt="Feature" className="rounded-xl" />
+        </figure>
+        <div className="card-body items-center text-center">
+          <h2 className="card-title">{props.title}</h2>
+
+          <div className="card-actions">{props.desc}</div>
+        </div>
+      </div>
+    </AnimationOnScroll>
+  );
+}
 export default Features;

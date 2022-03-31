@@ -5,6 +5,8 @@ import { Header, Footer, Main, Features, Stats } from "./Components";
 import * as Component from "./Components";
 import { Fade } from "react-awesome-reveal";
 import customLinks from "../customize";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import "animate.css";
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
 
       <section className="min-h-screen" id="features">
         <Features />
+
         <br></br>
         <br></br>
         <br></br>
