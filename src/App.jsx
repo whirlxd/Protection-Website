@@ -1,20 +1,16 @@
-import { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Header, Footer, Main, Features, Stats } from "./Components";
 import * as Component from "./Components";
-import { Fade } from "react-awesome-reveal";
 import customLinks from "../customize";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css";
 
 function App() {
   return (
     <>
       <Component.Header />
-
-      <Main />
-
+      <section id="maine">
+        <Main />
+      </section>
       <section className="min-h-screen" id="features">
         <Features />
 

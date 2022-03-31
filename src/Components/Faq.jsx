@@ -20,35 +20,50 @@ function Faq() {
 
       <div className="flex flex-col w-full  justify-center lg:flex-row ">
         <AnimationOnScroll animateIn="animate__slideInLeft">
-          <FaqCard question="What is Whirl?" answer="Whirl is pog!" />
+          <FaqCard
+            question="How to setup the bot?"
+            answer="Invite & Whitelist Users"
+          />
         </AnimationOnScroll>
 
         <div className="divider lg:divider-horizontal mx-auto"></div>
         <AnimationOnScroll animateIn="animate__slideInRight">
-          <FaqCard question="What is Whirl?" answer="Whirl is pog!" />
+          <FaqCard question="Will it nuke my server" answer="No, it won't" />
         </AnimationOnScroll>
       </div>
 
       <br></br>
       <div className="flex flex-col w-full  justify-center lg:flex-row ">
         <AnimationOnScroll animateIn="animate__slideInLeft">
-          <FaqCard question="What is Whirl?" answer="Whirl is pog!" />
+          <FaqCard
+            question="Does it store my data?"
+            answer="only server & user ids"
+          />
         </AnimationOnScroll>
 
         <div className="divider lg:divider-horizontal mx-auto"></div>
         <AnimationOnScroll animateIn="animate__slideInRight">
-          <FaqCard question="What is Whirl?" answer="Whirl is pog!" />
+          <FaqCard
+            question="Someone said it's bad"
+            answer="NonSense! Must be some hater"
+          />
         </AnimationOnScroll>
       </div>
       <br></br>
       <div className="flex flex-col w-full  justify-center lg:flex-row ">
         <AnimationOnScroll animateIn="animate__slideInLeft">
-          <FaqCard question="What is Whirl?" answer="Whirl is pog!" />
+          <FaqCard
+            question="Is it Open Source?"
+            answer="No & Prolly wouldn't be 😔"
+          />
         </AnimationOnScroll>
 
         <div className="divider lg:divider-horizontal mx-auto"></div>
         <AnimationOnScroll animateIn="animate__slideInRight">
-          <FaqCard question="What is Whirl?" answer="Whirl is pog!" />
+          <FaqCard
+            question="Is it Free?"
+            answer="Yes! It's completely FTU 😃"
+          />
         </AnimationOnScroll>
       </div>
       <br></br>

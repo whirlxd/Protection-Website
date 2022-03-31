@@ -16,37 +16,42 @@ function Features() {
 
       <div className="flex flex-col w-full  justify-center lg:flex-row">
         <FeatureCard
-          title="feature"
-          desc="Feature"
+          title="Custom Punishments"
+          desc="You can Customize the punishment, and the Bot will Punish the Attackers the way you want.
+"
           previewImage="https://source.unsplash.com/random/200x200"
         />
         <div className="divider lg:divider-horizontal mx-auto"></div>
 
         <FeatureCard
-          title="feature"
-          desc="Feature"
+          title="Logging"
+          desc="You can set a logging channel and know everything that happens in the server at all times.
+"
           previewImage="https://source.unsplash.com/random/200x200"
         />
         <div className="divider lg:divider-horizontal mx-auto"></div>
 
         <FeatureCard
-          title="feature"
-          desc="Feature"
+          title="Whitelisting/Blacklisting"
+          desc="You can Whitelist the Trusted users to make the bot ignore their actions and Blacklist people who you don't want using your bot
+"
           previewImage="https://source.unsplash.com/random/200x200"
         />
       </div>
       <br></br>
       <div className="flex flex-col w-full  justify-center lg:flex-row">
         <FeatureCard
-          title="feature"
-          desc="Feature"
+          title="Auto-Recovery"
+          desc="When someone tries to Harm the server, the Bot not just Punishes them, it also Recovers Everything back to Normal.
+"
           previewImage="https://source.unsplash.com/random/200x200"
         />
         <div className="divider lg:divider-horizontal mx-auto"></div>
 
         <FeatureCard
-          title="feature"
-          desc="Feature"
+          title="Feature toggling"
+          desc="You can Toggle Anti-Nuke and Anti-Raid features ON or OFF so the bot won't take the actions you don't like.
+"
           previewImage="https://source.unsplash.com/random/200x200"
         />
       </div>

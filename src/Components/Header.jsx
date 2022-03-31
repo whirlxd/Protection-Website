@@ -47,7 +47,10 @@ function Header() {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl hover:bg-base-100">
+          <a
+            href="#maine"
+            className="btn btn-ghost normal-case text-xl hover:bg-base-100"
+          >
             Protection
           </a>
         </div>
