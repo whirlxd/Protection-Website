@@ -25,6 +25,7 @@ function App() {
       <section className="" id="faq">
         <Component.Faq />
       </section>
+
       <section id="team">
         <Component.Team />
       </section>

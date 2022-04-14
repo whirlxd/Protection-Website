@@ -6,7 +6,7 @@ import "animate.css/animate.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App className="min-h-screen" />
   </React.StrictMode>,
   document.getElementById("root")
 );

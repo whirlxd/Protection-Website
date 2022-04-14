@@ -7,14 +7,12 @@ function Features() {
       <div className="hero  bg-base-100 ">
         <div className="hero-content text-center">
           <div className="max-w-md">
-            <AnimationOnScroll animateIn="animate__fadeInUp">
-              <h1 className="text-5xl font-bold mb-10 mt-10 ">Features</h1>
-            </AnimationOnScroll>
+            <h1 className="text-5xl font-bold mb-10 mt-10 ">Features</h1>
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col w-full  justify-center lg:flex-row">
+      <div className="lg:flex flex-col w-full  justify-center lg:flex-row sm:carousel">
         <FeatureCard
           title="Custom Punishments"
           desc="You can Customize the punishment, and the Bot will Punish the Attackers the way you want.
@@ -52,7 +50,7 @@ function Features() {
           title="Feature toggling"
           desc="You can Toggle Anti-Nuke and Anti-Raid features ON or OFF so the bot won't take the actions you don't like.
 "
-          previewImage="https://source.unsplash.com/random/200x200"
+          previewImage="https://media.discordapp.net/attachments/921234167306526770/960856457492963368/unknown.png"
         />
       </div>
     </>
@@ -61,18 +59,16 @@ function Features() {
 
 function FeatureCard(props) {
   return (
-    <AnimationOnScroll animateIn="animate__fadeInUp">
-      <div className="card m-1 w-96 bg-base-100 transition ease-in-out delay-100 shadow-xl hover:bg-primary hover:font-bold">
-        <figure className="px-10 pt-10">
-          <img src={props.previewImage} alt="Feature" className="rounded-xl" />
-        </figure>
-        <div className="card-body items-center text-center">
-          <h2 className="card-title">{props.title}</h2>
+    <div className=" carousel-item card m-1 w-96 bg-base-100 transition ease-in-out delay-100 shadow-xl hover:bg-primary hover:font-bold">
+      <figure className="px-10 pt-10">
+        <img src={props.previewImage} alt="Feature" className="rounded-xl" />
+      </figure>
+      <div className="card-body items-center text-center">
+        <h2 className="card-title">{props.title}</h2>
 
-          <div className="card-actions">{props.desc}</div>
-        </div>
+        <div className="card-actions">{props.desc}</div>
       </div>
-    </AnimationOnScroll>
+    </div>
   );
 }
 export default Features;

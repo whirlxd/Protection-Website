@@ -7,34 +7,29 @@ function Team() {
       <div className="hero">
         <div className="hero-content text-center">
           <div className="max-w-md">
-            <AnimationOnScroll animateIn="animate__fadeInUp">
-              <h1 className="text-5xl font-bold  mt-10">Our Team</h1>
-              <p className="py-6 mb-5">Meet the guys behind the scenes</p>
-            </AnimationOnScroll>
+            <h1 className="text-5xl font-bold  mt-10">Our Team</h1>
+            <p className="py-6 mb-5">Meet the guys behind the scenes</p>
           </div>
         </div>
       </div>
       <div className="flex flex-col w-full justify-center lg:flex-row">
-        <AnimationOnScroll animateIn="animate__zoomInLeft">
-          <TeamMember
-            name="Shadow"
-            avatar="https://github.com/shadowcodesyt.png"
-            title1="Bot Developer"
-            title2="Bot Owner"
-            github="https://github.com/shadowcodesyt"
-            twitter="https://twitter.com/shadowcodesyt"
-          ></TeamMember>
-        </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__zoomInRight">
-          <TeamMember
-            name="Whirl"
-            avatar="https://github.com/whirl21.png"
-            title1="Site Developer"
-            title2="Beta Tester"
-            github="https://github.com/whirl21"
-            twitter="https://twitter.com/whirl_21"
-          ></TeamMember>
-        </AnimationOnScroll>
+        <TeamMember
+          name="Shadow"
+          avatar="https://github.com/shadowcodesyt.png"
+          title1="Bot Developer"
+          title2="Bot Owner"
+          github="https://github.com/shadowcodesyt"
+          twitter="https://twitter.com/shadowcodesyt"
+        ></TeamMember>
+
+        <TeamMember
+          name="Whirl"
+          avatar="https://github.com/whirl21.png"
+          title1="Site Developer"
+          title2="Beta Tester"
+          github="https://github.com/whirl21"
+          twitter="https://twitter.com/whirl_21"
+        ></TeamMember>
       </div>
       <br></br>
       <br></br>
