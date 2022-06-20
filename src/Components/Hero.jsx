@@ -8,6 +8,7 @@ function hero() {
           <img
             src="https://images-ext-2.discordapp.net/external/36yZWYi2nwViarEt73V-9kTCR2HhrtEnsH2CSjZswas/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/600325534332747792/95df1defc794b77ae7a47324f1187564.webp?width=703&height=703"
             className=" h-52 w-52 mx-auto"
+            alt="protection-logo"
           />
 
           <h1 className="text-5xl font-bold">Protection</h1>
