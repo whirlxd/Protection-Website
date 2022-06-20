@@ -17,7 +17,7 @@ function Features() {
           title="Custom Punishments"
           desc="You can Customize the punishment, and the Bot will Punish the Attackers the way you want.
 "
-          previewImage="https://source.unsplash.com/random/200x200"
+          previewImage="https://media.discordapp.net/attachments/921234167306526770/988068983074869318/unknown.png"
         />
         <div className="divider lg:divider-horizontal mx-auto"></div>
 
@@ -25,7 +25,7 @@ function Features() {
           title="Logging"
           desc="You can set a logging channel and know everything that happens in the server at all times.
 "
-          previewImage="https://source.unsplash.com/random/200x200"
+          previewImage="https://media.discordapp.net/attachments/921234167306526770/988065657377677383/unknown.png"
         />
         <div className="divider lg:divider-horizontal mx-auto"></div>
 
@@ -33,7 +33,7 @@ function Features() {
           title="Whitelisting/Blacklisting"
           desc="You can Whitelist the Trusted users to make the bot ignore their actions and Blacklist people who you don't want using your bot
 "
-          previewImage="https://source.unsplash.com/random/200x200"
+          previewImage="https://media.discordapp.net/attachments/921234167306526770/988070258357198848/unknown.png"
         />
       </div>
       <br></br>
@@ -42,7 +42,7 @@ function Features() {
           title="Auto-Recovery"
           desc="When someone tries to Harm the server, the Bot not just Punishes them, it also Recovers Everything back to Normal.
 "
-          previewImage="https://source.unsplash.com/random/200x200"
+          previewImage="https://media.discordapp.net/attachments/921234167306526770/988071406216548402/unknown.png"
         />
         <div className="divider lg:divider-horizontal mx-auto"></div>
 
@@ -50,7 +50,7 @@ function Features() {
           title="Feature toggling"
           desc="You can Toggle Anti-Nuke and Anti-Raid features ON or OFF so the bot won't take the actions you don't like.
 "
-          previewImage="https://media.discordapp.net/attachments/921234167306526770/960856457492963368/unknown.png"
+          previewImage="https://media.discordapp.net/attachments/921234167306526770/988071808932675604/unknown.png"
         />
       </div>
     </>
@@ -61,7 +61,13 @@ function FeatureCard(props) {
   return (
     <div className=" carousel-item card m-1 w-96 bg-base-100 transition ease-in-out delay-100 shadow-xl hover:bg-primary hover:font-bold">
       <figure className="px-10 pt-10">
-        <img src={props.previewImage} alt="Feature" className="rounded-xl" />
+        <img
+          src={props.previewImage}
+          alt="Feature"
+          className="rounded-xl"
+          height={200}
+          width={200}
+        />
       </figure>
       <div className="card-body items-center text-center">
         <h2 className="card-title">{props.title}</h2>

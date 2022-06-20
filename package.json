@@ -19,7 +19,8 @@
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.4.3",
     "react-visibility-sensor": "^5.1.1",
-    "reveal": "^0.0.4"
+    "reveal": "^0.0.4",
+    "wow.js": "^1.2.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",

@@ -29,9 +29,6 @@ function App() {
       <section id="team">
         <Component.Team />
       </section>
-      <section id="know-more">
-        <Component.Invite />
-      </section>
 
       <Footer />
     </>
